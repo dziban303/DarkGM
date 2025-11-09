@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by Dziban
 @namespace      https://github.com/dziban303/DarkGM
-@version        3.03
+@version        3.04
 @description    Dark mode for Gmail
 @author         Dziban Molniya
 @homepageURL    https://github.com/dziban303/DarkGM
@@ -10,6 +10,10 @@
 @var checkbox highlight_unread 'Stronger Highlight | Unread Messages' 0
 ==/UserStyle== */
 @-moz-document url-prefix("https://mail.google.com/mail/") {
+    
+    .X3 {
+        display: none;
+    }
     
     .ii a, .ii a[href], .msg-9144290302914763440 .m_-9144290302914763440content a, .msg-9144290302914763440 a { 
         color: #3fced6 !important;
